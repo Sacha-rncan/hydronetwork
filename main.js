@@ -9484,10 +9484,8 @@ function _getCachement() {
                 ;
               }
               document.getElementById('loader').style.visibility = "hidden";
-              ;
             })["catch"](function (error) {
               document.getElementById('loader').style.visibility = "hidden";
-              ;
               console.log(error);
             });
           case 6:
